@@ -72,10 +72,6 @@
         vertical-align: middle;
     }
 
-
-
-
-
     #header h1 {
         color: #fff;
         font-size: 3em;
@@ -86,10 +82,10 @@
         color: inherit;
     }
 
-
-
-
-
+    .try{
+        visibility: hidden;
+    }
+   
 </style>
 
 <head>
@@ -103,34 +99,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
 </head>
 
 
 <body>
-
-
-
-
-
     <div id="header">
-
         <!-- Inner -->
-        <div class="inner">
+        <div class="try">
             <header>
-                <h1><a href="index.html" id="logo">Jorge Andres Azmitia Pivaral</a></h1>
+                <h1>Jorge Andres Azmitia Pivaral</h1>
                 <hr />
-                <p>Portafolio  de Sistemas y Tecnologias WEB</p>
+                <p style="text-align:center">Portafolio de Sistemas y Tecnologias WEB</p>
             </header>
-
         </div>
-
-
     </div>
     <div style="background-color:lightgray"><br><br><br></div>
 
 
-    <div class="container">
 
+    <div id="prueba" class="try">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -141,25 +133,21 @@
                 <li data-target="#myCarousel" data-slide-to="4"></li>
                 <li data-target="#myCarousel" data-slide-to="5"></li>
                 <li data-target="#myCarousel" data-slide-to="6"></li>
-
-
-
+                <li data-target="#myCarousel" data-slide-to="7"></li>
             </ol>
 
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-
                 <div class="item active">
-                    <img src="lab1.jpg" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="lab1.jpg" class="center" alt="Laboratorio #1" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
                         <h3>Lab #1 "El internet antes de la WEB</h3>
-
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="lab2.png" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="lab2.png" class="center" alt="Laboratorio #2" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
                         <h3>Lab #2</h3>
                         <p>Una breve historia de pokemon</p>
@@ -167,7 +155,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="lab3.png" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="lab3.png" class="center" alt="Laboratorio #3" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
                         <h3>Lab #3 "CSS Only"</h3>
                         <p>Una duskball de un solo div!</p>
@@ -175,7 +163,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="lab4.png" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="lab4.png" class="center" alt="Laboratorio #4" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color:rgba(109, 104, 104, 0.829)">
                         <h3>Lab #4 "Comunicacion Cliente-Servidor"</h3>
                         <p>Por si uno quiere un chat y no whatsapp precisamente</p>
@@ -184,7 +172,7 @@
 
 
                 <div class="item">
-                    <img src="labb5.png" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="labb5.png" class="center" alt="Laboratorio #5" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
                         <h3>Lab #5 "socket server chat"</h3>
                         <p>Servidor que maneja la informacion y la manda a tu pantalla de chat. Refresh automatico</p>
@@ -193,24 +181,28 @@
 
 
                 <div class="item">
-                    <img src="lab6.png" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="lab6.png" class="center" alt="Laboratorio #6" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
                         <h3>Lab #6 "React Memory"</h3>
                         <p>Por si te gusta "Smash" y los juegos de memoria. Lo mejor de ambos mundos</p>
                     </div>
                 </div>
 
+                <div class="item">
+                    <img src="lab7.png" class="center" alt="Laboratorio #7" style="height: 510px; width: auto; ">
+                    <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
+                        <h3>Lab #7 "A-MAZE-NG"</h3>
+                        <p>Que mejor que un fantastico juego de laberintos</p>
+                    </div>
+                </div>
 
                 <div class="item">
-                    <img src="lab8.png" class="center" alt="Los Angeles" style="height: 510px; width: auto; ">
+                    <img src="lab8.png" class="center" alt="Laboratorio #8" style="height: 510px; width: auto; ">
                     <div class="carousel-caption" style="  background-color: rgba(109, 104, 104, 0.829)">
                         <h3>Lab #8 "iCalc"</h3>
                         <p>Una calculadora con el mero estilo de apple, pero sin pagar miles para tenerla</p>
                     </div>
                 </div>
-
-
-
             </div>
 
             <!-- Left and right controls -->
@@ -225,27 +217,19 @@
         </div>
     </div>
 
-
     <div style="background-color:lightgray"><br><br><br></div>
 
-
-
-
-    <div style="background-color:white ; text-align:center;">
-
-
+    <div id="otraprueba" class="try" style="background-color:white ; text-align:center;">
         <h2>Bienvenido a mi portafolio para el curso de sistemas y tecnologias WEB</h2>
         <p>
             Si guieres ver el codigo de la mayoria de mis laboratorios, puedes verlo <a href="https://github.com/jorge97710">AQUI</a>.
         </p>
         <div style="background-color:lightgray"><br><br><br></div>
-
         <div class="wrapper style2">
-
             <article id="main" class="container special">
-                <a href="#" class="image featured"><img src="summ.png" alt="" /></a>
+                <a href="#" class="try "><img src="summ.png" alt="" /></a>
                 <header>
-                    <p>
+                    <p class="try">
                         Un breve resumen de lo que se hizo en el curso y los temas que se vieron. Luego de esto se
                         tiene informacion mas detallada acerca de cada laboratorio.
                         Durante el curso de desarrollo y tecnologias WEB iniciamos todo viendo un repaso de como
@@ -258,54 +242,46 @@
                         esto, viendo diferentes etiquetas o tags, el uso de los mismos. La estructura correcta de un
                         documento HTML y terminando por realizar nosotros una breve historia como lo puede ser el
                         <strong>laboratorio #2</strong>.
-
                     </p>
 
-                    <p>
-
+                    <p class="try">
                         Como siguiente tema empezamos a ver acerca de lo "estetico" en la WEB. Como darle diferentes
                         estilos a nuestras paginas. Logrando esto por medio de <strong>CSS</strong>. Aprendimos a darle
                         estilo y estetica a nuestras paginas para que no sean "texto plano". Con esto pudimos ver como
                         tambien se puede crear diferentes objetos utilizando solo <strong>CSS</strong> como se puede
                         ver en el <strong>laboratorio #3</strong>.
-
                     </p>
 
-                    <p>
-
+                    <p class="try">
                         Luego de ver <strong>HTML</strong> y <strong>CSS</strong> empezamos a ver que para darle
                         funcionalidad a una pagina, era necesario el uso de <strong>JavaScript</strong>. Aprendiendo
                         asi diferentes funciones de las que existen en este. Dentro de las funciones realizables dentro
                         de JavaScript, aprendimos a comunicarnos con un servidor (tanto para recibir como para enviar
                         datos). Esto lo logramos mediante la instruccion <strong>Fetch</strong>. Con esto pudimos crear
                         un chat como en el <strong>laboratorio #4</strong>
-
                     </p>
 
-                    <p>
-
+                    <p class="try">
                         Despues de haber visto <strong>HTML, CSS, JS</strong> cambiamos un poco el rumbo. Con esto me
                         refiero a que empezamos a ver un entorno en tiempo de ejecucion. Siendo este <strong>Node JS</strong>.
                         Con este entorno y ciertas bibliotecas, nos propusimos a hacer el <strong>laboratorio #5</strong>
                         que es practicamente como el cuarto, sin embargo en este la carga no la maneja "la pagina"
                     </p>
 
-                    <p>
-
+                    <p class="try">
                         Como siguiente punto iniciamos a ver <strong>React, webpack, babel</strong> y tecnologias
                         similares. Todas estas para una interfaz de usuario. Con esta creamos el <strong>laboratorio #6</strong>
                         que es un juego de memoria
-
                     </p>
 
-                    <p>
+                    <p class="try">
                         Continuamos con el <strong>laboratorio #7</strong> que es la implementacion y union por asi
-                        decirlo del laboratorio 4 y el 6. Esto ya que en el mismo se utilizan datos de un servidor, y
-                        se interpretan apra crear una pagina con react
+                        decirlo del laboratorio 4 o 5y el 6. Esto ya que en el mismo se utilizan datos de un servidor,
+                        y
+                        se interpretan apra crear una pagina con react. Esta sera un juego de laberinto
                     </p>
 
-                    <p>
-
+                    <p class="try">
                         Y por ultimo tenemos el tema de linting y tests. Aunque en anteriores pasos habiamos platicado
                         de este tema, este es un laboratorio en el que cobra relevancia. el <strong>laboratorio #8</strong>
                         consta de la implementacion de una calculadora, en la cual una de las ideas es hacer tests de
@@ -315,34 +291,24 @@
             </article>
         </div>
         <div style="background-color:lightgray"><br><br><br></div>
-
         <div class="wrapper style1">
-
-            <section id="features" class="container special">
-                <header>
+            <section id="features" class="try ">
+                <header class="try ">
                     <h2>Mis Laboratorios</h2>
                     <p>A continuacion veremos los laboratorios, puedden ser tanto imagenes como cuadros interactivos
                         (todas las imagenes,frames y similares son parte del laboratorio cuyo nombre se indica debajo
                         de las mismas)</p>
-
                     <p>Si deseas mas informacion da click sobre la imagen. te saldra un preview y un link a donde
                         puedas ver el archivo</p>
                 </header>
-
-
-                <div class="row">
-
-
-
-                    <article class="col-4 col-12-mobile special" style="Background-color:lightgray">
+                <div class="try">
+                    <article class="col-4 col-12-mobile special" style="Background-color:beige">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal1" class="image featured"><img src="lab1.jpg"
                                 alt="" style="height: 400px; width: auto;" /></a>
                         <header>
                             <h3><a href="#" style="color:black">Laboratorio #1</a></h3>
                         </header>
-
-
 
                     </article>
                     <!-- Modal -->
@@ -385,7 +351,7 @@
 
 
 
-                    <article class="col-4 col-12-mobile special">
+                    <article class="col-4 col-12-mobile special" style="Background-color:wheat">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal2" class="image featured"><img src="lab2.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
@@ -393,13 +359,10 @@
                             <h3><a href="#" style="color:black">Laboratorio #2</a></h3>
                         </header>
 
-
-
                     </article>
                     <!-- Modal -->
                     <div id="modal2" class="modal fade" role="dialog">
                         <div class="modal-dialog">
-
                             <!-- Modal content-->
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -407,13 +370,11 @@
                                     <h4 class="modal-title">Laboratorio #2</h4>
                                 </div>
                                 <div class="modal-body">
-
                                     <iframe src="http://34.210.35.174/JAZMITIA15202/LAB2/pag01.html" style="height: 400px; width: 100%;"></iframe>
                                     <p>El laboratorio #2 costaba de realizar una breve historia/juego rpg. Este debia
                                         de hacerse solo en HTMl, no sepodia incluir ningun CSS o JS. Aqui aprendimos el
                                         uso de diferentes etiquetas, y la forma correcta de ralcionar paginas web. </p>
                                     <p>si deseas acceder al laboratorio en el servidor entra aca:
-
                                         <a href="http://34.210.35.174/JAZMITIA15202/LAB2/pag01.html">Laboratorio #2
                                             "HTML"</a>
                                     </p>
@@ -422,21 +383,16 @@
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
-
-
-                    <article class="col-4 col-12-mobile special" style="Background-color:lightgray">
+                    <article class="col-4 col-12-mobile special" style="Background-color:beige">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal3" class="image featured"><img src="lab3.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
                         <header>
                             <h3><a href="#" style="color:black">Laboratorio #3</a></h3>
                         </header>
-
-
 
                     </article>
                     <!-- Modal -->
@@ -475,12 +431,7 @@
                         </div>
                     </div>
 
-
-
-
-
-
-                    <article class="col-4 col-12-mobile special">
+                    <article class="col-4 col-12-mobile special" style="Background-color:wheat">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal4" class="image featured"><img src="lab4.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
@@ -488,11 +439,10 @@
                             <h3><a href="#" style="color:black">Laboratorio #4</a></h3>
                         </header>
 
-
-
                     </article>
                     <!-- Modal -->
                     <div id="modal4" class="modal fade" role="dialog">
+
                         <div class="modal-dialog">
 
                             <!-- Modal content-->
@@ -504,20 +454,24 @@
                                 <div class="modal-body">
                                     <img src="lab4.png" alt="" style="height: auto; width:400px;" />
                                     <p>si deseas acceder al laboratorio en el servidor entra aca:
-                                        <a href="http://34.210.35.174/JAZMITIA15202/LAB4/chat.html">Laboratorio #2
+                                        <a href="http://34.210.35.174/JAZMITIA15202/LAB4/chat.html">Laboratorio #4
                                             "Comunicacion Cliente-Servidor"</a> </p>
 
-                                    <p>El laboratorio #4 consta en una pantalla que funciona como medio de comunicacion
-                                        con un servidor. En esta caso nuestra pantalla sera un cliente. Este se conecta
-                                        al servidor por medio de la funcion fetch, tanto para hacer un GET y recibir
+                                    <p>El laboratorio #4 consta en una pantalla que funciona como medio de
+                                        comunicacion
+                                        con un servidor. En esta caso nuestra pantalla sera un cliente. Este se
+                                        conecta
+                                        al servidor por medio de la funcion fetch, tanto para hacer un GET y
+                                        recibir
                                         los mensajes que de momento estan en el servidor. Como para hacer un POST y
-                                        poder enviar un mensaje al servidor. Esta aplicacion cuenta con dos botones ya
+                                        poder enviar un mensaje al servidor. Esta aplicacion cuenta con dos botones
+                                        ya
                                         que no se pudo implementar el refresh automatico, por lo que cuenta con un
                                         boton de refresh y uno para enviar mensajes.</p>
                                     <p>si deseas acceder al codigo fuente entra aca:
 
-                                        <a href="https://github.com/jorge97710/Lab4ProgramacionWeb">Laboratorio #3
-                                            CSS Only"</a>
+                                        <a href="https://github.com/jorge97710/Lab4ProgramacionWeb">Laboratorio #4
+                                            Clienr-Server Communication"</a>
                                     </p>
                                 </div>
                                 <div class="modal-footer">
@@ -528,9 +482,7 @@
                         </div>
                     </div>
 
-
-
-                    <article class="col-4 col-12-mobile special" style="Background-color:lightgray">
+                    <article class="col-4 col-12-mobile special" style="Background-color:beige">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal5" class="image featured"><img src="labb5.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
@@ -576,18 +528,7 @@
                         </div>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-                    <article class="col-4 col-12-mobile special">
+                    <article class="col-4 col-12-mobile special" style="Background-color:wheat">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal6" class="image featured"><img src="lab6.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
@@ -638,16 +579,14 @@
 
 
 
-                    <article class="col-4 col-12-mobile special" style="Background-color:lightgray">
+                    <article class="col-4 col-12-mobile special" style="Background-color:beige">
                         <br>
-                        <a href="#" data-toggle="modal" data-target="#modal7" class="image featured"><img src="labs3.png"
+                        <a href="#" data-toggle="modal" data-target="#modal7" class="image featured"><img src="lab7.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
                         <header>
                             <h3><a href="#" style="color:black">Laboratorio #7</a></h3>
                         </header>
-                        <p>
 
-                        </p>
 
 
                     </article>
@@ -659,11 +598,26 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Laboratorio #8</h4>
+                                    <h4 class="modal-title">Laboratorio #7</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Some text in the modal.</p>
+                                    <img src="delab7.png" alt="" style="height: 250px; width: auto;" />
+                                    <p>El laboratorio #7 para fines practicos es la uion de dos de las tecnolocias que
+                                        hemos utilizado en el pasado. Por un lado para dicho laboratorio utilizaremos
+                                        fetch, para comunicarnos con el servidor. Esto con el proposito de conseguir
+                                        informacion por parte del servidor, informacion que sera utilizada para la
+                                        creacion de un juego de laberinto. Ahora para mencionar la segunda tecnologia
+                                        que utilizaremos en el desarrollo de este proyecto, tenemos REACT. Con react
+                                        nos encargaremos de la creacion de los componentes que conformaran el juego.
+                                        Estos se manejaran con dicha biblioteca, y la informacion para la creacion de
+                                        los mismos se obtiene con fetch. A la larga este laboratorio es como la mezcla
+                                        entre el Laboratorio #4 o #5 y el Laboratorio #6. Uniendo dos partes de
+                                        nuestros conocimientos y habilidades nuevas </p>
+                                    <p>si deseas acceder al codigo fuente entra aca:
 
+                                        <a href="https://github.com/jorge97710/Laboratorio7-Laberinto">Laboratorio #7
+                                            a-MAZE-ng</a>
+                                    </p>
 
 
                                 </div>
@@ -676,7 +630,7 @@
                     </div>
 
 
-                    <article class="col-4 col-12-mobile special">
+                    <article class="col-4 col-12-mobile special" style="Background-color:wheat">
                         <br>
                         <a href="#" data-toggle="modal" data-target="#modal8" class="image featured"><img src="lab8.png"
                                 alt="" style="height: 400px; width: auto;" /></a>
@@ -695,7 +649,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Modal Header</h4>
+                                    <h4 class="modal-title">Laboratorio #8</h4>
                                 </div>
                                 <div class="modal-body">
                                     <img src="lab8.png" alt="" style="height: 250px; width: auto;" />
@@ -715,7 +669,7 @@
                                     <p>si deseas acceder al laboratorio en el servidor entra aca:
 
                                         <a href="http://34.210.35.174/JAZMITIA15202/LAB8/calculadora.html">Laboratorio
-                                            #2 "Comunicacion Cliente-Servidor"</a>
+                                            #8 "Calculadora"</a>
                                     </p>
                                 </div>
                                 <div class="modal-footer">
@@ -734,7 +688,8 @@
     </div>
 
     <script>
-
+        $(document).scrollTop(0);
+        ScrollReveal().reveal('.try', { delay: 200, duration: 1900 });
         //style="height: 400px; width: auto;"
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
